@@ -1,0 +1,5 @@
+ports:
+  - port: 1337
+    openOn: browser
+tasks:
+  - command: "npm install typescript ts-node --global && npm install && npm run start"
