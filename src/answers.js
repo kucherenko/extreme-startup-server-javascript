@@ -1,3 +1,3 @@
 module.exports = (question) => {
-  return 'Answer will be here';
-}
+  return question + '|Answer will be here';
+};

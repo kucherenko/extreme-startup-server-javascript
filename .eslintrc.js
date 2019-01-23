@@ -23,9 +23,11 @@ module.exports = {
         "semi": [
             "error",
             "always"
-        ]
+        ],
+        "no-console": 0
     },
     "env": {
+      "node": true,
       "jest": true
     }
 };
